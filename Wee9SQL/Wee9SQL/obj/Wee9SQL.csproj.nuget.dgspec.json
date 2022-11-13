@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eric Ribeiro\\source\\repos\\Wee9SQL\\Wee9SQL\\Wee9SQL.csproj": {}
+    "C:\\Users\\Eric Ribeiro\\Documents\\GitHub\\Week9DataDesign\\Wee9SQL\\Wee9SQL\\Wee9SQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eric Ribeiro\\source\\repos\\Wee9SQL\\Wee9SQL\\Wee9SQL.csproj": {
+    "C:\\Users\\Eric Ribeiro\\Documents\\GitHub\\Week9DataDesign\\Wee9SQL\\Wee9SQL\\Wee9SQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric Ribeiro\\source\\repos\\Wee9SQL\\Wee9SQL\\Wee9SQL.csproj",
+        "projectUniqueName": "C:\\Users\\Eric Ribeiro\\Documents\\GitHub\\Week9DataDesign\\Wee9SQL\\Wee9SQL\\Wee9SQL.csproj",
         "projectName": "Wee9SQL",
-        "projectPath": "C:\\Users\\Eric Ribeiro\\source\\repos\\Wee9SQL\\Wee9SQL\\Wee9SQL.csproj",
+        "projectPath": "C:\\Users\\Eric Ribeiro\\Documents\\GitHub\\Week9DataDesign\\Wee9SQL\\Wee9SQL\\Wee9SQL.csproj",
         "packagesPath": "C:\\Users\\Eric Ribeiro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric Ribeiro\\source\\repos\\Wee9SQL\\Wee9SQL\\obj\\",
+        "outputPath": "C:\\Users\\Eric Ribeiro\\Documents\\GitHub\\Week9DataDesign\\Wee9SQL\\Wee9SQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
