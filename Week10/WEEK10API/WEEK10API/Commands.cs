@@ -105,12 +105,12 @@ namespace WEEK10API
         private MonsterData Format(SqlDataReader format)
         {
             MonsterData result = new MonsterData();
-            format.ID = (int)format["id"];
-            format.Name = (string)format["Name"];
-            format.Type = (string)format["Type"];
-            format.HP = (int)format["HP"];
-            format.MP = (int)format["MP"];
-            format.Location = (string)format["Location"];
+            result.ID = (int)format["id"];
+            result.Name = (string)format["Name"];
+            result.Type = (string)format["Type"];
+            result.HP = (int)format["HP"];
+            result.MP = (int)format["MP"];
+            result.Location = (string)format["Location"];
             return result;
         }
     }
