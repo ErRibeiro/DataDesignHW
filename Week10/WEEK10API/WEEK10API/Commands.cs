@@ -102,16 +102,16 @@ namespace WEEK10API
             }
         }
 
-        private MonsterData Format(SqlDataReader result)
+        private MonsterData Format(SqlDataReader format)
         {
-            MonsterData format = new MonsterData();
-            format.ID = (int)result["id"];
-            format.Name = (string)result["Name"];
-            format.Type = (string)result["Type"];
-            format.HP = (int)result["HP"];
-            format.MP = (int)result["MP"];
-            format.Location = (string)result["Location"];
-            return format;
+            MonsterData result = new MonsterData();
+            format.ID = (int)format["id"];
+            format.Name = (string)format["Name"];
+            format.Type = (string)format["Type"];
+            format.HP = (int)format["HP"];
+            format.MP = (int)format["MP"];
+            format.Location = (string)format["Location"];
+            return result;
         }
     }
 }
