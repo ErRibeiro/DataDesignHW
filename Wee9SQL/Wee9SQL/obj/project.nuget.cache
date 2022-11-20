@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9mLb+5cR9x59Rk24X2uP5AMezYcPfXP7/DTvnjKzOQbzbRwTyUiY1P0pdvWsYZxrpWZBocFEK4k4ck/BaBPBUg==",
+  "dgSpecHash": "Jpsv523LOK9agkBf2mkPzv8ufjAMD7JPFeOccN++lAXzMubntyCUJs1ls/JvCaqglUaf+ZzD0h3TpDrqqWrcUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eric Ribeiro\\Documents\\GitHub\\Week9DataDesign\\Wee9SQL\\Wee9SQL\\Wee9SQL.csproj",
+  "projectFilePath": "C:\\Users\\Eric Ribeiro\\Documents\\GitHub\\DataDesign\\Wee9SQL\\Wee9SQL\\Wee9SQL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eric Ribeiro\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Eric Ribeiro\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
