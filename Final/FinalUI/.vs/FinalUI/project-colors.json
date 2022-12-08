@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c5834003-e0de-48bc-b8a1-defa3c3b0e05": {
+      "ProjectGuid": "c5834003-e0de-48bc-b8a1-defa3c3b0e05",
+      "DisplayName": "FinalUI",
+      "ColorIndex": 0
+    },
+    "29b21686-33d2-41d8-94e2-a6f2548ee1ba": {
+      "ProjectGuid": "29b21686-33d2-41d8-94e2-a6f2548ee1ba",
+      "DisplayName": "FinalAPI",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
