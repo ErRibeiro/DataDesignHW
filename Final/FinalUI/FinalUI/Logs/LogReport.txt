@@ -1,0 +1,22 @@
+Get All Pokemon: OK, 200, 12/12/2022 3:26:26 PM
+Get Stats By ID: OK, 200, 12/12/2022 3:27:30 PM
+Get MatchUps : OK, 200, 12/12/2022 3:27:30 PM
+Get Stats By ID: OK, 200, 12/12/2022 3:27:47 PM
+Get MatchUps : OK, 200, 12/12/2022 3:27:47 PM
+Get Stats By ID: OK, 200, 12/12/2022 3:27:48 PM
+Get MatchUps : OK, 200, 12/12/2022 3:27:48 PM
+Get Stats By ID: OK, 200, 12/12/2022 3:27:48 PM
+Get MatchUps : OK, 200, 12/12/2022 3:27:48 PM
+Get Stats By ID: OK, 200, 12/12/2022 3:27:49 PM
+Get MatchUps : OK, 200, 12/12/2022 3:27:49 PM
+Get Stats By ID: OK, 200, 12/12/2022 3:28:09 PM
+Get MatchUps : OK, 200, 12/12/2022 3:28:09 PM
+Get Stats By ID: OK, 200, 12/12/2022 3:28:17 PM
+Get MatchUps : OK, 200, 12/12/2022 3:28:17 PM
+Get Legendary IDs: OK, 200, 12/12/2022 3:28:32 PM
+Get MatchUps : OK, 200, 12/12/2022 3:28:35 PM
+Get MatchUps : OK, 200, 12/12/2022 3:28:35 PM
+Get MatchUps : OK, 200, 12/12/2022 3:28:35 PM
+Get MatchUps : OK, 200, 12/12/2022 3:28:35 PM
+Get MatchUps : OK, 200, 12/12/2022 3:28:35 PM
+Get MatchUps : OK, 200, 12/12/2022 3:28:35 PM
