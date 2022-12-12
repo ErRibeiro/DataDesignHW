@@ -27,9 +27,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.button1 = new System.Windows.Forms.Button();
             this.Poke1Box = new System.Windows.Forms.TextBox();
             this.Poke3Box = new System.Windows.Forms.TextBox();
@@ -60,7 +60,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(83, 191);
+            this.button1.Location = new System.Drawing.Point(83, 192);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(163, 48);
             this.button1.TabIndex = 0;
@@ -175,9 +175,9 @@
             // 
             this.Poke1Stats.Location = new System.Drawing.Point(221, 11);
             this.Poke1Stats.Name = "Poke1Stats";
-            this.Poke1Stats.Size = new System.Drawing.Size(102, 23);
+            this.Poke1Stats.Size = new System.Drawing.Size(130, 23);
             this.Poke1Stats.TabIndex = 13;
-            this.Poke1Stats.Text = "Check stats";
+            this.Poke1Stats.Text = "Check Pokemon";
             this.Poke1Stats.UseVisualStyleBackColor = true;
             this.Poke1Stats.Click += new System.EventHandler(this.Poke1Stats_Click);
             // 
@@ -185,9 +185,9 @@
             // 
             this.Poke6Stats.Location = new System.Drawing.Point(221, 153);
             this.Poke6Stats.Name = "Poke6Stats";
-            this.Poke6Stats.Size = new System.Drawing.Size(102, 23);
+            this.Poke6Stats.Size = new System.Drawing.Size(130, 23);
             this.Poke6Stats.TabIndex = 14;
-            this.Poke6Stats.Text = "Check stats";
+            this.Poke6Stats.Text = "Check Pokemon";
             this.Poke6Stats.UseVisualStyleBackColor = true;
             this.Poke6Stats.Click += new System.EventHandler(this.Poke6Stats_Click);
             // 
@@ -195,9 +195,9 @@
             // 
             this.Poke5Stats.Location = new System.Drawing.Point(221, 124);
             this.Poke5Stats.Name = "Poke5Stats";
-            this.Poke5Stats.Size = new System.Drawing.Size(102, 23);
+            this.Poke5Stats.Size = new System.Drawing.Size(130, 23);
             this.Poke5Stats.TabIndex = 15;
-            this.Poke5Stats.Text = "Check stats";
+            this.Poke5Stats.Text = "Check Pokemon";
             this.Poke5Stats.UseVisualStyleBackColor = true;
             this.Poke5Stats.Click += new System.EventHandler(this.Poke5Stats_Click);
             // 
@@ -205,9 +205,9 @@
             // 
             this.Poke4Stats.Location = new System.Drawing.Point(221, 95);
             this.Poke4Stats.Name = "Poke4Stats";
-            this.Poke4Stats.Size = new System.Drawing.Size(102, 23);
+            this.Poke4Stats.Size = new System.Drawing.Size(130, 23);
             this.Poke4Stats.TabIndex = 16;
-            this.Poke4Stats.Text = "Check stats";
+            this.Poke4Stats.Text = "Check Pokemon";
             this.Poke4Stats.UseVisualStyleBackColor = true;
             this.Poke4Stats.Click += new System.EventHandler(this.Poke4Stats_Click);
             // 
@@ -215,9 +215,9 @@
             // 
             this.Poke3Stats.Location = new System.Drawing.Point(221, 67);
             this.Poke3Stats.Name = "Poke3Stats";
-            this.Poke3Stats.Size = new System.Drawing.Size(102, 23);
+            this.Poke3Stats.Size = new System.Drawing.Size(130, 23);
             this.Poke3Stats.TabIndex = 17;
-            this.Poke3Stats.Text = "Check stats";
+            this.Poke3Stats.Text = "Check Pokemon";
             this.Poke3Stats.UseVisualStyleBackColor = true;
             this.Poke3Stats.Click += new System.EventHandler(this.Poke3Stats_Click);
             // 
@@ -225,9 +225,9 @@
             // 
             this.Poke2Stats.Location = new System.Drawing.Point(221, 39);
             this.Poke2Stats.Name = "Poke2Stats";
-            this.Poke2Stats.Size = new System.Drawing.Size(102, 23);
+            this.Poke2Stats.Size = new System.Drawing.Size(130, 23);
             this.Poke2Stats.TabIndex = 18;
-            this.Poke2Stats.Text = "Check stats";
+            this.Poke2Stats.Text = "Check Pokemon";
             this.Poke2Stats.UseVisualStyleBackColor = true;
             this.Poke2Stats.Click += new System.EventHandler(this.Poke2Stats_Click);
             // 
@@ -237,31 +237,32 @@
             this.OutPutBox.Location = new System.Drawing.Point(18, 255);
             this.OutPutBox.Multiline = true;
             this.OutPutBox.Name = "OutPutBox";
+            this.OutPutBox.ReadOnly = true;
             this.OutPutBox.Size = new System.Drawing.Size(305, 157);
             this.OutPutBox.TabIndex = 19;
             // 
             // AllPokemonBox
             // 
             this.AllPokemonBox.AccessibleName = "outputbox";
-            this.AllPokemonBox.Location = new System.Drawing.Point(352, 11);
+            this.AllPokemonBox.Location = new System.Drawing.Point(380, 11);
             this.AllPokemonBox.Multiline = true;
             this.AllPokemonBox.Name = "AllPokemonBox";
             this.AllPokemonBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.AllPokemonBox.Size = new System.Drawing.Size(220, 542);
+            this.AllPokemonBox.Size = new System.Drawing.Size(192, 542);
             this.AllPokemonBox.TabIndex = 20;
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(3, 4);
             this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart1.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(604, 300);
             this.chart1.TabIndex = 21;
             this.chart1.Text = "chart1";

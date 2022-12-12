@@ -14,6 +14,8 @@ namespace FinalUI
         [STAThread]
         static void Main()
         {
+            //when app closes, export logs
+            Application.ApplicationExit += new EventHandler(Logger.ExportLogsToFile);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
