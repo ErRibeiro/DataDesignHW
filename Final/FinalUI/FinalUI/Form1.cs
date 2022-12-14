@@ -126,7 +126,7 @@ namespace FinalUI
                     {
                         txtbox.Text += $"ID: {item.ID} {nl}Name: {item.Name}{nl}";
                     }
-                    maxpokemon = poke.Count();
+                    maxpokemon = poke.Count() + 1;
                     Logger.Logs.Add(new Logger($"Get All Pokemon: {response.StatusCode}", (int)response.StatusCode, DateTime.Now));
                 }
             }
@@ -139,7 +139,7 @@ namespace FinalUI
         async void GetStatsById(string id)
         {
             int result = 0;
-            if (Int32.TryParse(id, out result) == true && Int32.Parse(id) > maxpokemon || Int32.TryParse(id, out result) == true && result <= 0)
+            if (Int32.TryParse(id, out result) == true && Int32.Parse(id) >= maxpokemon || Int32.TryParse(id, out result) == true && result <= 0)
             {
                 MessageBox.Show("Value is greater or lower then pokedex capacity.");
             }
